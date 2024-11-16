@@ -87,8 +87,8 @@ export default function Polygon() {
         <OrbitControls
           autoRotate
           autoRotateSpeed={1}
-          enableZoom={true} // Disable zoom
-          enablePan={false} // Disable panning
+          enableZoom={true}
+          enablePan={false}
         />
         <ambientLight intensity={0.5} />
         <FractalTetrahedron
